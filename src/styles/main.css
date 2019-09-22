@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+.hero {
+    width: 100vw;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    background-image: url("../assets/mountains.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.hero h1 {
+    font-size: 48px;
+    width: 800px;
+}
+
+.hero input {
+    width: 100%;
+    border: none;
+    padding: 20px 15px;
+    background-color: #E7E5E5;
+    font-size: 18px;
+}
+
+.hero p {
+    font-weight: normal;
+}
+
+.search-ctn {
+    display:inline-block;
+    position: relative;
+    width: 100%;
+}
+.search-ctn i {
+    position: absolute;
+    right: 15px;
+    color: black;
+    top: calc(50% - 0.5em); /* Keep icon in center of input, regardless of the input height */
+}

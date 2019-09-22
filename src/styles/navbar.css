@@ -1,0 +1,43 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+
+    margin: 0;
+
+    padding: 20px 150px;
+}
+
+ul > li:nth-of-type(1) {
+    margin-right: auto;
+}
+
+ul > li:nth-last-of-type(1) {
+    margin: 0 18px 0 30px;
+}
+
+ul > li > a {
+    color: #E7E5E5;
+    margin: 0 18px;
+    text-decoration: none;
+    font-weight: medium;
+}
+
+ul > li > button {
+    border: none;
+    background-color: #2E4559;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+ul > li > button > a {
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
